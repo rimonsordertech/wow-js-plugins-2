@@ -1,0 +1,53 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    width: 100%;
+  }
+  .image-item {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    width: 540px;
+  }
+  .image-item {
+    width: 50%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 720px;
+  }
+  .image-item {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    width: 960px; /* Common desktop container width for this range */
+  }
+  /* Add .image-item styles if needed for this breakpoint */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .container {
+    width: 1140px; /* Common extra large desktop container width */
+  }
+  /* Add .image-item styles if needed for this breakpoint */
+}
+
+/* XXXL screens (wider than 1400px) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+  }
+  /* Add .image-item styles if needed for this breakpoint */
+}

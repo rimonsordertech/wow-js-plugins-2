@@ -1,0 +1,35 @@
+.box1 {
+  min-height: 600px;
+  background-color: green;
+}
+
+.box2 {
+  min-height: 600px;
+  background-color: pink;
+}
+
+.box3 {
+  min-height: 600px;
+  background-color: yellow;
+}
+
+.wow {
+  text-align: center;
+}
+
+#moar {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 20px auto;
+}
+
+#moar:hover {
+  background-color: #2980b9;
+}
